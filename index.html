@@ -1,149 +1,222 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>urban clssics</title>
-    </head>
-    <style>
-    body{
-        margin: 0;
-        font-family:arial,sans-serif;
-         background-color: #f5f5f5;
-    }
-    header{
-        background-color:#111;
-        color:white;
-        padding:15px;
-        text-align:center;
-    }
-    container{
-padding:15px
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Gems</title>
+
+  <style>
+    /* RESET + BASE */
+    * {
+      box-sizing: border-box;
     }
 
-    .product{
-        background: #f5f5f5;
-        border-radius:1opx;
-        padding:10px;
-        margin-bottom: 15px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: #0e0e0e; /* matte black */
+      color: #eaeaea;
     }
 
-    .product img{
-        width:100%;
-        border-radius: 8px;
+    /* HEADER */
+    header {
+      padding: 28px 16px;
+      text-align: center;
+      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+      border-bottom: 1px solid #222;
     }
 
-    .product h3{
-        margin:10px 0 5px
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 3px;
+      font-weight: 600;
     }
 
-    .price{
-        color:#444;
-        font-weight:bold;
+    header p {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #9a9a9a;
     }
 
-    .btn{
-        display: block;
-        margin-top: 10px;
-        text-align: center;
-        padding: 12px;
-        background: #111;
-        color: #f5f5f5;
-        text-decoration: none;
-        box-sizing: 8px;
+    /* CONTAINER */
+    .container {
+      max-width: 620px;
+      margin: auto;
+      padding: 24px 16px;
     }
 
-    footer{
-        text-align: center;
-        font-size: 14px;
-        color: #777;
-        padding: 20px;
-
+    /* PRODUCT CARD */
+    .product {
+      background: #161616;
+      border-radius: 18px;
+      padding: 16px;
+      margin-bottom: 28px;
+      box-shadow:
+        0 15px 35px rgba(0,0,0,0.7),
+        inset 0 0 0 1px #1f1f1f;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
+    .product:hover {
+      transform: translateY(-6px);
+      box-shadow:
+        0 22px 50px rgba(0,0,0,0.85),
+        inset 0 0 0 1px #2a2a2a;
+    }
 
-</style>
+    /* IMAGE */
+    .product img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 14px;
+      background: #0b0b0b;
+    }
+
+    /* TEXT */
+    .product h3 {
+      margin: 16px 0 6px;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .price {
+      font-size: 16px;
+      font-weight: 600;
+      color: #d4af37; /* luxury gold */
+    }
+
+    /* BUTTON */
+    .btn {
+      display: block;
+      margin-top: 16px;
+      padding: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      letter-spacing: 1px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #000, #2a2a2a);
+      border: 1px solid #333;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #111, #3a3a3a);
+      transform: scale(0.98);
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      padding: 32px 10px;
+      border-top: 1px solid #1f1f1f;
+    }
+  </style>
 </head>
-    <body>
-        <header>
-            <h1>urban classics</h1>
-            <p> premium chain.rings.accessories</p>
-        </header>
 
-        <div class="container">
-          
-             <div class="product">
-                <img src="-1419135330.jpg" alt="chain">
-                <h3> silver trouser chains</h3>
-                <p class="price">6500</p>
-                <a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">order on whatsapp</a>
+<body>
 
-            </div> 
+<header>
+  <h1>URBAN GEMS</h1>
+  <p>Premium chains • bracelets • accessories</p>
+</header>
 
-             <div class="product">
-                <img src="-793669484.jpg" alt="chain">
-                <h3> silver trouser chains</h3>
-                <p class="price">6500</p>
-                <a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">order on whatsapp</a>
+<div class="container">
 
-            </div> 
+  <div class="product">
+    <img src="image 2/chain1.jpg" alt="Silver Cuban Chain">
+    <h3>Silver Cuban Chain</h3>
+    <p class="price">₦3,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Silver%20Cuban%20Chain%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
 
-                         <div class="product">
-                <img src="-568195648.jpg" alt="chain">
-                <h3> silver trouser chains</h3>
-                <p class="price">6500</p>
-                <a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">order on whatsapp</a>
+  <div class="product">
+    <img src="" alt="Hand Chain Bracelet">
+    <h3>Hand Chain Bracelet</h3>
+    <p class="price">₦2,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
 
-            </div> 
+  <div class="product">
+    <img src="" alt="Hand Chain Bracelet">
+    <h3>Hand Chain Bracelet</h3>
+    <p class="price">₦2,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
 
-            <div class="products">
-<img src="6b4bc295576ba404f9473bf8a4b50d36.jpg" alt="braclets">
-<h3>plain customizable hand chain customization prices may differ </h3>
-<p class="price">2500</p>
-<a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">oder on whatsapp</a>
-            </div>
-            
-            <div class="products">
-<img src="-1009071950.jpg" alt="braclets">
-<h3>plain wrist chain</h3>
-<p class="price">3500</p>
-<a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">oder on whatsapp</a>
-            </div>
+  <div class="product">
+    <img src="" alt="Hand Chain Bracelet">
+    <h3>Hand Chain Bracelet</h3>
+    <p class="price">₦2,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
 
- 
- <div class="products">
-    <img src="IMG_20260119_163113_741.jpg" alt="necklace">
-<h3>couples chain</h3>
-<p class="price">3000</p>
-<a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">oder on whatsapp</a>
-            </div>
+  
+  <div class="product">
+    <img src="" alt="Hand Chain Bracelet">
+    <h3>Hand Chain Bracelet</h3>
+    <p class="price">₦2,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
+  
+  <div class="product">
+    <img src="-1453020319.jpg" alt="trouser chain">
+    <h3>TROUSER CHAIN</h3>
+    <p class="price">₦7,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
+
+  
+  <div class="product">
+    <img src="6b4bc295576ba404f9473bf8a4b50d36.jpg" alt="customizable chain bracelet">
+    <h3>customizable Chain Bracelet</h3>
+    <p class="price">₦3,500</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
 
 
- <div class="products">
-    <img src="" alt="stickers">
-<h3>tatoo sticker</h3>
-<p class="price">500</p>
-<a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">oder on whatsapp</a>
-            </div>
+  <div class="product">
+    <img src="951429570.jpg" alt="cuban chain">
+    <h3>cuban chain</h3>
+    <p class="price">₦5,000</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div>
 
+  <div class="product">
+    <img src="2035141063.jpg" alt="cuban chain">
+    <h3> cuban chain</h3>
+    <p class="price">₦6,000</p>
+    <a class="btn" href="https://wa.me/2348105436891?text=Is%20the%20Hand%20Chain%20Bracelet%20available%3F">
+      CHECK AVAILABILITY
+    </a>
+  </div> 
 
- <div class="products">
-    <img src="IMG_20260119_163126_351.jpg" alt="necklace">
-<h3>couple chain</h3>
-<p class="price">2500</p>
-<a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">
-  Order on WhatsApp
-            </div>
+</div>
 
-        <div class="products">
-    <img src="IMG_20260119_163137_968.jpg" alt="necklace">
-<h3>rugby chain</h3>
-<p class="price">1500</p>
-<a class="btn" href="https://wa.me/2348105436891?text=Is%20this%20available%3F">oder on whatsapp</a>
-            </div>    
-        </div>
-
-        <footer>
-            Nationwide delivery available
-            </footer>
-    </body>
+<footer>
+  Nationwide delivery available
+</footer>
+</body>
 </html>
